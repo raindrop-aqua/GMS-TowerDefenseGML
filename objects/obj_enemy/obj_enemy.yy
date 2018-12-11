@@ -89,6 +89,20 @@
             "value": "3",
             "varName": "hit_point",
             "varType": 1
+        },
+        {
+            "id": "61d270a2-4ef0-489a-b7bb-f9e990762221",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "prize",
+            "varType": 1
         }
     ],
     "solid": false,

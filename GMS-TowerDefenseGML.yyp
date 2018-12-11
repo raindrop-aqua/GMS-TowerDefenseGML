@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00512877-974f-4ffe-9f67-8d34f6269c15",
+            "Value": {
+                "id": "c331d22f-d3e5-4b22-994b-f5d7a66868d2",
+                "resourcePath": "scripts\\scr_money_get\\scr_money_get.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0e143c69-e278-4ee3-a644-b1f17dbb179c",
             "Value": {
                 "id": "0085760d-0c8b-48c9-9438-576cc536d480",
@@ -84,6 +92,14 @@
                 "id": "0ccc5418-5590-41bd-b4af-1ba0ed08c527",
                 "resourcePath": "views\\334666c9-be1e-4736-8844-3f1512c6625a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "38c45ef6-1a64-4f77-be38-a212e735ba7c",
+            "Value": {
+                "id": "3d4deb8f-2582-46c8-a912-8a979967df37",
+                "resourcePath": "fonts\\fnt_main\\fnt_main.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "71343f36-cd6b-499a-a7db-a6f36b743483",
+            "Value": {
+                "id": "d0c094cc-eb60-4de5-bfe0-81337a1f0822",
+                "resourcePath": "scripts\\scr_infantry_cost_get\\scr_infantry_cost_get.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "d56303ea-799c-4674-92cc-8b03f2fb3a40",
@@ -204,6 +228,14 @@
                 "id": "00ec7a69-f405-444e-a4d7-95c64000a488",
                 "resourcePath": "views\\8769eeb2-2301-488e-8cfe-7e6e5e6886b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8c379607-0621-4894-9dd0-875c3aa97c15",
+            "Value": {
+                "id": "1a970840-db22-4d71-8d3e-8a5f6b0b0f3a",
+                "resourcePath": "scripts\\scr_money_use\\scr_money_use.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -255,6 +287,14 @@
             }
         },
         {
+            "Key": "c25222a1-f3b6-4014-8b03-1e659a013bae",
+            "Value": {
+                "id": "bd37be03-2ed0-4145-963f-cd58719f8551",
+                "resourcePath": "scripts\\scr_money_add\\scr_money_add.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c4ed5921-4766-447b-89ea-895429739922",
             "Value": {
                 "id": "11dd4b0b-756e-406c-8759-2bdecb442eb4",
@@ -276,6 +316,14 @@
                 "id": "58e735ff-94cf-4d98-93d3-78f13fbf02f4",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "de82f515-48fc-4698-ab70-dcae49d12e7f",
+            "Value": {
+                "id": "3bd9ecff-557b-4f5e-9616-dc5283ba76d7",
+                "resourcePath": "objects\\obj_money\\obj_money.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -315,7 +363,11 @@
         "e5f4dcc6-27e0-4955-93aa-97cad355b4e5",
         "54eabd83-cf63-4a0f-9ae7-298103f17e58",
         "ee91e029-b20b-4130-be60-ffd4c11b3c3f",
-        "91afbb98-bcf1-4cb3-b495-111f40d00cef"
+        "91afbb98-bcf1-4cb3-b495-111f40d00cef",
+        "00512877-974f-4ffe-9f67-8d34f6269c15",
+        "8c379607-0621-4894-9dd0-875c3aa97c15",
+        "c25222a1-f3b6-4014-8b03-1e659a013bae",
+        "71343f36-cd6b-499a-a7db-a6f36b743483"
     ],
     "tutorial": ""
 }
