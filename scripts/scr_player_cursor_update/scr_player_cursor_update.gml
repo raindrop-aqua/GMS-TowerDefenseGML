@@ -1,4 +1,4 @@
-// カーソル情報を更新する
+/// @desc カーソル情報を更新する
 var size = global.GRID_SIZE;
 cursor_x = floor(mouse_x / size) * size;
 cursor_y = floor(mouse_y / size) * size;

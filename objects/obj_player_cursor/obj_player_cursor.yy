@@ -1,18 +1,38 @@
 {
-    "id": "c20cf7e1-6ff8-4d8f-b535-c72d9b8298ff",
+    "id": "a9918750-3ba3-40bc-b6a6-96266b601c46",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_game_manager",
+    "name": "obj_player_cursor",
     "eventList": [
         {
-            "id": "22f9880c-4435-4842-b225-4b59051d1b98",
+            "id": "152ac8aa-f114-42b8-b350-60ee4914d5ba",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "c20cf7e1-6ff8-4d8f-b535-c72d9b8298ff"
+            "m_owner": "a9918750-3ba3-40bc-b6a6-96266b601c46"
+        },
+        {
+            "id": "dacc848d-09eb-460b-ad21-8cfe9fe7b195",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a9918750-3ba3-40bc-b6a6-96266b601c46"
+        },
+        {
+            "id": "7f800e1a-b17b-498d-abab-a356382498fe",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "a9918750-3ba3-40bc-b6a6-96266b601c46"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,35 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "41892845-3511-4eb1-92d1-637aa4e11a99",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "wave",
-            "varType": 1
-        },
-        {
-            "id": "83230cb2-4249-47cd-81fa-2ec00eae9157",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "60",
-            "varName": "rate_spawn",
-            "varType": 1
-        },
-        {
-            "id": "e12eb86b-7038-4ccc-933f-cc2021e33237",
+            "id": "56bcbad6-df7e-4472-aeb3-f11ad09665c6",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -71,11 +63,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "interval_spawn",
+            "varName": "cursor_x",
             "varType": 1
         },
         {
-            "id": "094ae2af-d0b9-404d-b1b5-a85a9467816b",
+            "id": "f3f4ecb7-f56a-4ff9-b100-c60ec8d247f2",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -84,9 +76,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "6",
-            "varName": "number_of_remaining_enemies",
-            "varType": 0
+            "value": "0",
+            "varName": "cursor_y",
+            "varType": 1
+        },
+        {
+            "id": "67fbcb4b-d318-43d2-a7af-ada8d8f40bfc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "cursor_obj",
+            "varType": 4
         }
     ],
     "solid": false,

@@ -1,8 +1,8 @@
 {
-    "id": "ee91e029-b20b-4130-be60-ffd4c11b3c3f",
+    "id": "54eabd83-cf63-4a0f-9ae7-298103f17e58",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_game_manager_update_cursor",
+    "name": "scr_player_cursor_consts",
     "IsCompatibility": false,
     "IsDnD": false
 }
