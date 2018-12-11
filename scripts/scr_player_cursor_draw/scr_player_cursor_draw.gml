@@ -14,6 +14,9 @@ draw_rectangle(x1, y1, x2, y2, true);
 
 // 砲台をうすく描画（配置予定を示す）
 if (cursor_obj != noone) {
+	if (cursor_obj.object_index == obj_off) {
+		draw_sprite(spr_off, 0, x1, y1);
+	}
 	exit;
 }
 
