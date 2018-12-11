@@ -1,28 +1,18 @@
 {
-    "id": "5767cf86-e479-4480-bb0f-ff42940f653a",
+    "id": "c20cf7e1-6ff8-4d8f-b535-c72d9b8298ff",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_infantry",
+    "name": "obj_game_manager",
     "eventList": [
         {
-            "id": "e0ce5524-5804-4f96-8f7e-0c14910679d7",
+            "id": "22f9880c-4435-4842-b225-4b59051d1b98",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "5767cf86-e479-4480-bb0f-ff42940f653a"
-        },
-        {
-            "id": "c3429198-487b-49ef-994e-173f61e7c714",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5767cf86-e479-4480-bb0f-ff42940f653a"
+            "m_owner": "c20cf7e1-6ff8-4d8f-b535-c72d9b8298ff"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "6e0f7253-d297-44d9-91aa-6d9b66eee5f9",
+            "id": "41892845-3511-4eb1-92d1-637aa4e11a99",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +42,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "40",
-            "varName": "range",
+            "value": "1",
+            "varName": "wave",
             "varType": 1
         },
         {
-            "id": "5243e1cd-243e-4774-a654-bbc116a4b9b1",
+            "id": "83230cb2-4249-47cd-81fa-2ec00eae9157",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,40 +56,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
-            "varName": "damage",
+            "value": "60",
+            "varName": "rate_spawn",
             "varType": 1
         },
         {
-            "id": "c0e0e0b1-af5d-4801-9800-128b1cb6e81f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "noone",
-            "varName": "target",
-            "varType": 4
-        },
-        {
-            "id": "9b51bb06-3025-4a0d-99b4-a316766f86c9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "2 * 60",
-            "varName": "rate_fire",
-            "varType": 4
-        },
-        {
-            "id": "c82a5928-3e81-4090-a2e2-d6558e121734",
+            "id": "e12eb86b-7038-4ccc-933f-cc2021e33237",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -109,11 +71,67 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "interval_fire",
+            "varName": "interval_spawn",
             "varType": 1
+        },
+        {
+            "id": "094ae2af-d0b9-404d-b1b5-a85a9467816b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "6",
+            "varName": "number_of_remaining_enemies",
+            "varType": 0
+        },
+        {
+            "id": "2cb2678c-faed-4b00-b96a-abed7f9208c1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cursor_x",
+            "varType": 1
+        },
+        {
+            "id": "eb543468-51ba-4e47-abd7-10779b45a2be",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cursor_y",
+            "varType": 1
+        },
+        {
+            "id": "dd92a52e-4259-412e-be53-1adcfe323b9c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "cursor_obj",
+            "varType": 4
         }
     ],
     "solid": false,
-    "spriteId": "c5d5b4f2-944f-4951-968a-b6214b0c3b2e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

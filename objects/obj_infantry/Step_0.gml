@@ -1,7 +1,7 @@
 // インターバルタイマーを更新
 
-if (timer_interval > 0) {
-	timer_interval--;
+if (interval_fire > 0) {
+	interval_fire--;
 }
 
 // 一番近い敵を検出する
@@ -28,7 +28,7 @@ if (abs(diff_shot) > 16) {
 }
 
 // 弾の装填が済んだかを確認
-if (timer_interval > 0) {
+if (interval_fire > 0) {
 	exit;	
 }
 // 弾を撃つ
@@ -40,4 +40,4 @@ with (instance_create_layer(x, y, "Instances", obj_shot)) {
 	damage = other.damage;
 }
 // インターバルタイマーの値をリセット
-timer_interval = fire_rate;
+interval_fire = rate_fire;

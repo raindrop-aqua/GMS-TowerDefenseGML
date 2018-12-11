@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "54eabd83-cf63-4a0f-9ae7-298103f17e58",
+            "Value": {
+                "id": "4287c7d7-523f-4753-b6df-998f0e46fc33",
+                "resourcePath": "scripts\\scr_consts\\scr_consts.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5767cf86-e479-4480-bb0f-ff42940f653a",
             "Value": {
                 "id": "a00972c8-f6af-4590-991e-7a01a53d0fdc",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "c20cf7e1-6ff8-4d8f-b535-c72d9b8298ff",
+            "Value": {
+                "id": "3376b2b0-e703-4901-96ea-13fd3e6cd285",
+                "resourcePath": "objects\\obj_game_manager\\obj_game_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c5d5b4f2-944f-4951-968a-b6214b0c3b2e",
             "Value": {
                 "id": "f2d41ab8-4f09-46d8-8c30-43992545f4bd",
@@ -228,6 +244,22 @@
                 "id": "58e735ff-94cf-4d98-93d3-78f13fbf02f4",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "e5f4dcc6-27e0-4955-93aa-97cad355b4e5",
+            "Value": {
+                "id": "d80afeae-22c8-4dcf-8f1c-1efd56ff3788",
+                "resourcePath": "scripts\\scr_game_manager_step_main\\scr_game_manager_step_main.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ee91e029-b20b-4130-be60-ffd4c11b3c3f",
+            "Value": {
+                "id": "390d4f3c-b1f7-4027-8728-c79130e8ef95",
+                "resourcePath": "scripts\\scr_game_manager_update_cursor\\scr_game_manager_update_cursor.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -248,7 +280,9 @@
         }
     ],
     "script_order": [
-        
+        "54eabd83-cf63-4a0f-9ae7-298103f17e58",
+        "e5f4dcc6-27e0-4955-93aa-97cad355b4e5",
+        "ee91e029-b20b-4130-be60-ffd4c11b3c3f"
     ],
     "tutorial": ""
 }
