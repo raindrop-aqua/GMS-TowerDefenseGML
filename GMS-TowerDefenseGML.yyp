@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "28ff66f8-94bc-43f5-8114-07f261296ff3",
+            "Value": {
+                "id": "dd817c16-befc-40b0-bc01-31c5af16b600",
+                "resourcePath": "objects\\obj_button\\obj_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a1c2ce3-3d52-4a5a-832c-0f91d91632fb",
             "Value": {
                 "id": "67902a1b-53f1-4318-9de8-0920405428eb",
@@ -100,6 +108,14 @@
                 "id": "3d4deb8f-2582-46c8-a912-8a979967df37",
                 "resourcePath": "fonts\\fnt_main\\fnt_main.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "44c1d96a-e7c3-4890-b492-7508b251664a",
+            "Value": {
+                "id": "664a499f-bc99-421c-b1a9-9eb5c74d0749",
+                "resourcePath": "sprites\\spr_button\\spr_button.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -267,6 +283,14 @@
             "Value": {
                 "id": "04c4f83a-1ef6-49f8-9772-01df11c0e1d1",
                 "resourcePath": "objects\\obj_player_cursor\\obj_player_cursor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b36993d2-591b-49f4-88df-400e572500f9",
+            "Value": {
+                "id": "1d7e2c74-18c9-49e3-b15f-ca94758c7949",
+                "resourcePath": "objects\\obj_base_button\\obj_base_button.yy",
                 "resourceType": "GMObject"
             }
         },
