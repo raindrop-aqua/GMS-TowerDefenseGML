@@ -66,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "damage",
             "varType": 1
         },
