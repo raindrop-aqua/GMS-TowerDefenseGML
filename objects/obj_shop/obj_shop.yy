@@ -1,10 +1,19 @@
 {
-    "id": "de82f515-48fc-4698-ab70-dcae49d12e7f",
+    "id": "91d2e685-6e43-4765-80b7-10d8bebd223e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_money",
+    "name": "obj_shop",
     "eventList": [
-        
+        {
+            "id": "12286787-f046-461d-84ec-e65a9b17d233",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "91d2e685-6e43-4765-80b7-10d8bebd223e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "b875d207-297a-4c8f-a6b4-3b3e85e7c18d",
+            "id": "f4081b26-b80e-429d-917d-204c0096626d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -33,9 +42,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "35",
-            "varName": "money",
-            "varType": 1
+            "value": "SHOP_STATE.NONE",
+            "varName": "state",
+            "varType": 4
         }
     ],
     "solid": false,

@@ -57,6 +57,34 @@
             "varType": 1
         },
         {
+            "id": "c488c02a-921e-4b77-8461-820c9b39b63f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "GAME_WAVE_STATE.WAIT",
+            "varName": "state_wave",
+            "varType": 4
+        },
+        {
+            "id": "a25e45ba-c885-4035-bab7-3c8fd87fe0da",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2 * 60",
+            "varName": "interval_wave",
+            "varType": 4
+        },
+        {
             "id": "83230cb2-4249-47cd-81fa-2ec00eae9157",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

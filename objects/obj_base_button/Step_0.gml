@@ -22,3 +22,4 @@ if (enabled and point_in_rectangle(mx, my, x, y, x + width, y + height)) {
 	// 通常状態
 	state = 0;
 }
+
