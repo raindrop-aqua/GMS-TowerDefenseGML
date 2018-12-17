@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "b5977424-6174-40d3-9c3c-235c1b967c07",
+            "Value": {
+                "id": "c000c790-8265-4c65-a7f4-e70caeba179f",
+                "resourcePath": "objects\\obj_wave\\obj_wave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb9144d0-9770-4a14-adfa-fb8e26bea34b",
             "Value": {
                 "id": "573c7691-f95c-4246-8e29-00ab5f21e49d",
