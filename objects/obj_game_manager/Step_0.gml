@@ -22,7 +22,7 @@ switch (state_wave) {
 		break;
 	case GAME_WAVE_STATE.GAME_OVER:
 		if (mouse_check_button_pressed(mb_left)) {
-			game_restart();
+			room_goto(rm_main);
 		}
 		break;
 }
