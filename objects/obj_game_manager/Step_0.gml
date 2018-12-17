@@ -20,5 +20,10 @@ switch (state_wave) {
 		// メイン処理を呼び出し
 		scr_game_manager_step_main();
 		break;
+	case GAME_WAVE_STATE.GAME_OVER:
+		if (mouse_check_button_pressed(mb_left)) {
+			game_restart();
+		}
+		break;
 }
 

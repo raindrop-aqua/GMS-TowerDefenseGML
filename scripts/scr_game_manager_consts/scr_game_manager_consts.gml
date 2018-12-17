@@ -1,4 +1,5 @@
 enum GAME_WAVE_STATE {
 	WAIT = 0,
-	MAIN = 1
+	MAIN = 1,
+	GAME_OVER = 3
 }

@@ -1,3 +1,10 @@
+// ゲームオーバー判定
+with (obj_heart) {
+	if (lives <= 0) {
+		obj_game_manager.state_wave = GAME_WAVE_STATE.GAME_OVER;
+		return 0;
+	}
+}
 
 // インターバルタイマー更新
 interval_spawn++;
@@ -20,3 +27,4 @@ if (number_of_remaining_enemies <= 0 and instance_number(obj_enemy) == 0) {
 	obj_game_manager.state_wave = GAME_WAVE_STATE.WAIT;
 	obj_game_manager.interval_wave = 2 * 60;
 }
+
